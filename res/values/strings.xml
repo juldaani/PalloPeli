@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">BallGame</string>
+    <string name="highscore_otsikko">Highscore</string>
+	<string name="nameText">Your name:</string>
+	<string name="enter">Enter</string>
+	<string name="playagain">Play again!</string>
+	<string name="credit">Credits: subtlepatterns.com</string>
+</resources>

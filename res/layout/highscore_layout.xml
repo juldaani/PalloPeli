@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+  	android:paddingRight="20dp"
+  	android:paddingTop="10dp"
+  	android:paddingBottom="10dp"
+  	android:background="#000000" >
+    	
+    	<TextView
+		    android:id="@+id/highscore_otsikko"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:textSize="65sp"
+		    android:text="@string/highscore_otsikko"
+		    android:textColor="#ff0000"
+		    android:gravity="center"
+		    />
+    	
+    	<TextView
+		    android:id="@+id/nameTextView"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:textSize="30sp"
+		    android:text="@string/nameText"
+		    android:textColor="#ffffff"
+		    android:gravity="center"
+		    android:paddingTop="10dp"
+		    />
+    	
+    	<EditText
+            android:id="@+id/editTextName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:maxLength="9"
+            android:width="400dp"
+            android:textColor="#ffffff"
+            android:digits="abcdefghijklmnopqrstuwxyzåäö0123456789ABCDEFGHIJKLMNOPQRSTUWXYZÅÄÖ"
+            android:inputType="textPersonName"
+            />
+    	
+    	<Button
+            android:id="@+id/buttonEnter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:text="@string/enter" 
+            android:layout_gravity="center"
+            android:onClick="EnterName"/>
+    	
+    	<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+		    
+			    <TextView
+				    android:id="@+id/place1NameTextView"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:textSize="40sp"
+				    android:width="400dp" 
+				    android:textColor="#ffffff"
+				    android:paddingTop="10dp"
+					android:paddingLeft="50dp"
+				    />
+			    
+			    <TextView
+				    android:id="@+id/place1PointsTextView"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:textSize="40sp"
+				    android:textColor="#ffffff"
+				    />
+		    
+		</LinearLayout>
+
+    	<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+		    
+			    <TextView
+				    android:id="@+id/place2NameTextView"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:textSize="40sp"
+				    android:width="400dp"
+				    android:textColor="#ffffff"
+				    android:paddingTop="10dp"
+				    android:paddingLeft="50dp"
+				    />
+			    
+			    <TextView
+				    android:id="@+id/place2PointsTextView"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:textSize="40sp"
+				    android:textColor="#ffffff"
+				    />
+		    
+		</LinearLayout>
+		
+    	<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+		    
+			    <TextView
+				    android:id="@+id/place3NameTextView"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:textSize="40sp"
+				    android:width="400dp"
+				    android:textColor="#ffffff"
+				    android:paddingTop="10dp"
+				    android:paddingLeft="50dp"
+				    />
+			    
+			    <TextView
+				    android:id="@+id/place3PointsTextView"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:textSize="40sp"
+				    android:textColor="#ffffff"
+				    />
+		    
+		</LinearLayout>
+		
+    	<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+		    
+			    <TextView
+				    android:id="@+id/place4NameTextView"
+				    android:layout_height="wrap_content"
+				    android:layout_width="wrap_content"
+				    android:textSize="40sp"
+				    android:width="400dp"
+				    android:textColor="#ffffff"
+				    android:paddingTop="10dp"
+				    android:paddingLeft="50dp"
+				    />
+			    
+			    <TextView
+				    android:id="@+id/place4PointsTextView"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:textSize="40sp"
+				    android:textColor="#ffffff"
+				    />
+		    
+		</LinearLayout>
+		
+    	<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+		    
+			    <TextView
+				    android:id="@+id/place5NameTextView"
+				    android:layout_height="wrap_content"
+				    android:layout_width="wrap_content"
+				    android:textSize="40sp"
+				    android:width="400dp"
+				    android:textColor="#ffffff"
+				    android:paddingTop="10dp"
+				    android:paddingLeft="50dp"
+				    android:paddingBottom="50dp"
+				    />
+			    
+			    <TextView
+				    android:id="@+id/place5PointsTextView"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:textSize="40sp"
+				    android:textColor="#ffffff"
+				    />
+		    
+		</LinearLayout>
+		
+    	<Button
+            android:id="@+id/buttonPlayAgain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="@string/playagain" 
+            android:layout_gravity="center"
+            android:onClick="PlayAgain"/>
+    	
+    	<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="15sp"
+		    android:textColor="#ffffff"
+		    android:paddingTop="20dp"
+		    android:layout_gravity="right"
+		    android:text="@string/credit"
+		    />
+    	
+</LinearLayout>
